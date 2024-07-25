@@ -1,6 +1,9 @@
 # LittleLemon!!
 
-#APIs to test 
-#restaurant/menu
-#restaurant/menu/<int:pk>
-#restaurant/booking
+## APIs to Test
+
+- `restaurant/menu`
+
+- `restaurant/menu/<int:pk>`
+
+- `restaurant/booking`
