@@ -2,9 +2,9 @@
 
 ## APIs to Test
 
-- `restaurant/menu`
-- `restaurant/menu/<int:pk>`
-- `restaurant/booking`
+- `api/menu`
+- `api/menu/<int:pk>`
+- `api/booking/tables`
 
 **Note:** Make sure to authenticate API calls. See `notes.txt` for the Bearer token.
 

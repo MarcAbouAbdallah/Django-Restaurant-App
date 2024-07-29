@@ -1,5 +1,5 @@
 APIs to test
 
-restaurant/menu
-restaurant/menu/<int:pk>
-restaurant/booking
+api/menu
+api/menu/<int:pk>
+api/booking/tables

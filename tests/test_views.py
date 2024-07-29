@@ -3,13 +3,13 @@ from rest_framework.test import APIClient #class from test module to make API ca
 from rest_framework import status
 from django.contrib.auth.models import User
 
-from restaurant.serializers import MenuSerializer
+from restaurant_api.serializers import MenuSerializer
 from restaurant.models import Menu
 
 class MenuViewTest(TestCase):
     
     def setUp(self):
-        # Create a test user for autehnticated calls
+        # Create a test user for authenticated calls
         self.user = User.objects.create_user(username='testuser', password='password123')
         
         # Create an APIClient instance
@@ -26,13 +26,13 @@ class MenuViewTest(TestCase):
         self.client.credentials(HTTP_AUTHORIZATION='Token ' + self.token)
         
         # creating menu instances for test purposes
-        self.menu1 = Menu.objects.create(title='Test Dish 1', price=10.00, inventory=5)
-        self.menu2 = Menu.objects.create(title='Test Dish 2', price=15.00, inventory=3)
-        self.menu3 = Menu.objects.create(title='Test Dish 3', price=20.00, inventory=7)
+        self.menu1 = Menu.objects.create(title='Test Dish 1', price=10.00)
+        self.menu2 = Menu.objects.create(title='Test Dish 2', price=15.00)
+        self.menu3 = Menu.objects.create(title='Test Dish 3', price=20.00)
 
     def test_getall(self):
         # GET call to Menu API
-        response = self.client.get('/restaurant/menu/')
+        response = self.client.get('/api/menu/')
         
         # Retrieving and Serializing
         menus = Menu.objects.all()
