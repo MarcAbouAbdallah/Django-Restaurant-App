@@ -6,8 +6,11 @@ class Booking(models.Model):
     reservation_date = models.DateField(default=timezone.now)
     reservation_slot = models.SmallIntegerField(default=10)
 
+    class Meta:
+        ordering = ['reservation_date', 'reservation_slot']
+
     def __str__(self): 
-        return self.first_name
+        return self.name
 
 
 class Menu(models.Model):
