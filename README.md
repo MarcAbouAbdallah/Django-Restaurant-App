@@ -1,25 +1,22 @@
 # Restaurant Management System
 
-
-## Overview
-
-The Restaurant Management System is designed to streamline restaurant operations through two main components:
-
-1. **Web Page (Restaurant)**: Provides the front-end interface for customers to interact with the restaurant's services.
-2. **API (Restaurant API)**: Manages data and interactions on the back-end through a RESTful API.
-
-
 ## Project Structure
 
 The project consists of two Django apps:
 
-- **Restaurant**: The web application with user-facing components.
-- **Restaurant API**: The backend API that handles various operations related to menu management, shopping cart, orders, table bookings, and user management.
+- **Restaurant**: The web application that allows customers to interact with the restaurant's services.
+- **Restaurant API**: The backend **RESTful APIs** that handle various operations related to menu item management, delivery orders, table bookings, and staff (owner, managers, delivery crew) administration.
+
+## Technology Stack
+
+- **Django**: Web framework to build the application core, along with **HTML**, **CSS**, and **JavaScript** for front-end development.
+- **Django REST Framework (DRF)**: For creating, authenticating, and securing various RESTful APIs.
+- **MySQL**: Database system to store and manage data.
+- **Djoser**: Library for token-based authentication.
 
 
 ## API Endpoints
 
-### Summary
 Below is a brief overview of the API endpoints available in the project:
 
 - **Restaurant Menu API**: Manage menu items (view, add, update, delete).
@@ -33,6 +30,33 @@ For detailed information about the API endpoints, refer to the [API EndPoints Do
 
 ## Setup and Installation
 
+1. **Clone the Repository**  
+   Clone the repository to your local machine and navigate into the project directory:
+   ```bash
+   git clone https://github.com/MarcAbouAbdallah/LittleLemon.git
+   cd LittleLemon
+   ```
+
+2. **Create a Virtual Environment**  
+   ```bash
+   pipenv shell
+   ```
+
+3. **Install the project dependencies**  
+   ```bash
+   pipenv install
+   ```
+
+4. **Set Up the database**  
+   Make sure you have MySQL installed and configured. Then run:
+   ```bash
+   python manage.py migrate
+   ```
+
+5. **Run the development server**  
+   ```bash
+   python manage.py runserver
+   ```
 
 
 
