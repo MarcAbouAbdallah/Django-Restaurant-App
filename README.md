@@ -1,5 +1,6 @@
 # Restaurant Management System
 
+
 ## Overview
 
 The Restaurant Management System is designed to streamline restaurant operations through two main components:
@@ -7,12 +8,14 @@ The Restaurant Management System is designed to streamline restaurant operations
 1. **Web Page (Restaurant)**: Provides the front-end interface for customers to interact with the restaurant's services.
 2. **API (Restaurant API)**: Manages data and interactions on the back-end through a RESTful API.
 
+
 ## Project Structure
 
 The project consists of two Django apps:
 
 - **Restaurant**: The web application with user-facing components.
 - **Restaurant API**: The backend API that handles various operations related to menu management, shopping cart, orders, table bookings, and user management.
+
 
 ## API Endpoints
 
@@ -100,7 +103,8 @@ The project consists of two Django apps:
   - Description: Fire a manager.
   - Access: Restaurant owner (superuser).
 
-**Note**: Users.txt contains a list of users with different roles (Owner, Manager, Delivery Crew, Customer). Ensure that the roles are assigned correctly to access the respective endpoints.
+**Note**: [Users.txt](Users.txt) contains a list of users with different roles (Owner, Manager, Delivery Crew, Customer). Ensure that the roles are assigned correctly to access the respective endpoints.
+
 
 ## Setup and Installation
 
