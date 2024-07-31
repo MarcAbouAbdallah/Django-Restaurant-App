@@ -13,6 +13,8 @@ The project consists of two Django apps:
 - **Django REST Framework (DRF)**: For creating, authenticating, and securing various RESTful APIs.
 - **MySQL**: Database system to store and manage data.
 - **Djoser**: Library for token-based authentication.
+- **Django unittest Library**: For application testing to ensure code quality and reliability.
+- **Insomnia**: For API testing and debugging.
 
 
 ## API Endpoints
