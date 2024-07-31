@@ -1,5 +1,0 @@
-User: 
-
-marc (username)
-marc@123 (password)
-"164061447f279f62ea03b844b6fbe73b01dd5864" (token)

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This script is to temporarily change the dyanmic linker variable to help it locate the libmysqlclient.24.lib library
+# This script is to temporarily change the dynamic linker variable to help it locate the libmysqlclient.24.lib library
 # since i'm getting errors when running migrations
 
 # ./helper_script.sh python3 manage.py migrate

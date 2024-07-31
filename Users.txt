@@ -1,0 +1,21 @@
+For each user below:
+1- Username
+2- Password
+3- Token (for authenticated APIs calls)
+4- Group (Manager, Delivery Crew, Customer)
+
+
+Marc (username)
+marc@123 (password)
+164061447f279f62ea03b844b6fbe73b01dd5864 (token)
+Manager (Group)
+
+Joe
+Joe123LL@
+846d6d1d6a341f9a0c31e15d4146a4f5007f39da
+Delivery Crew
+
+Patrick
+Pat123LL@
+fd70ee759233c636e63335e0c6726c6784a87fd2
+Customer
