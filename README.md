@@ -18,6 +18,7 @@ The project consists of two Django apps:
 
 
 ## API Endpoints
+For detailed information about the API endpoints, refer to the [API EndPoints Documentation](./API_DOCS.md).
 
 ### Restaurant Menu API
 
