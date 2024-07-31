@@ -84,4 +84,5 @@
   - **Description**: Fire a manager.
   - **Access**: Restaurant owner (superuser).
 
+<br>
 **Note**: [Users.md](Users.md) contains a list of users with different roles (Owner, Manager, Delivery Crew, Customer). Ensure that the roles are assigned correctly to access the respective endpoints.
