@@ -10,6 +10,7 @@ djangorestframework = "*"
 djoser = "*"
 django-filter = "*"
 cryptography = "*"
+djangorestframework-simplejwt = "*"
 
 [dev-packages]
 
