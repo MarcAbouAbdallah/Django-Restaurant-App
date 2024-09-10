@@ -2,7 +2,7 @@
 
 ## Owner (SuperUser)
 - **Username**: admin
-- **Token**: [Insert token here, if applicable]
+- **Token**: 
 
 ## Manager
 - **Username**: Marc
