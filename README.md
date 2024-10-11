@@ -28,8 +28,8 @@ Below is a brief overview of the API endpoints available in the project:
 - **Menu Cart API** 🛒: Handle cart operations (add items, view contents, empty cart).
 - **Delivery Order API** 🚚: Manage orders (view, place, assign delivery crew, update status, delete).
 - **Table Booking API** 🍽️: View table bookings.
-- **Delivery Crew Management API** 👨‍💼: Hire or fire delivery crew members.
-- **Manager Management API** 👔: Hire or fire managers.
+- **Delivery Crew Staffing API** 👨‍💼: Hire or fire delivery crew members.
+- **Manager Staffing API** 👔: Hire or fire managers.
 
 For detailed information about the API endpoints, refer to the [API EndPoints Documentation](documentation/API.md).
 
