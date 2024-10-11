@@ -14,7 +14,7 @@
   - **Description**: Update or delete a specific menu item.
   - **Access**: Restaurant owner (superuser) only.
 
-## Shopping Cart API
+## Menu Cart API
 
 - **POST** `/api/cart/menu-items/`
   - **Description**: Add items to the cart by specifying the item and quantity.
@@ -64,7 +64,7 @@
   - **Description**: View all table bookings in the restaurant.
   - **Access**: Managers.
 
-## Delivery Crew Management API
+## Delivery Crew Staffing API
 
 - **POST** `/api/groups/delivery-crew/users/`
   - **Description**: Hire a new delivery crew member.
@@ -74,7 +74,7 @@
   - **Description**: Fire a delivery crew member.
   - **Access**: Managers.
 
-## Manager Management API
+## Manager Staffing API
 
 - **POST** `/api/groups/manager/users/`
   - **Description**: Hire a new manager.
