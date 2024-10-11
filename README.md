@@ -7,6 +7,8 @@ The project consists of two Django apps:
 - **Restaurant**: The web application that allows customers to interact with the restaurant's services.
 - **Restaurant API**: The backend **RESTful APIs** that handle various operations related to menu item management, delivery orders, table bookings, and staff (owner, managers, delivery crew) administration.
 
+---
+
 ## Technology Stack 🛠️
 
 - **Django**: Web framework to build the application core, along with **HTML**, **CSS**, and **JavaScript** for front-end development.
@@ -16,6 +18,7 @@ The project consists of two Django apps:
 - **Django unittest Library**: For application testing to ensure code quality and reliability.
 - **Insomnia**: For API testing and debugging.
 
+---
 
 ## API Endpoints
 
@@ -29,6 +32,8 @@ Below is a brief overview of the API endpoints available in the project:
 - **Manager Management API** 👔: Hire or fire managers.
 
 For detailed information about the API endpoints, refer to the [API EndPoints Documentation](documentation/API.md).
+
+---
 
 ## Setup and Installation ⚙️
 
