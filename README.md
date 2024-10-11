@@ -1,4 +1,4 @@
-# Restaurant Management System
+# Restaurant Management System 🍽️🧑‍🍳
 
 ## Project Structure
 
@@ -7,7 +7,7 @@ The project consists of two Django apps:
 - **Restaurant**: The web application that allows customers to interact with the restaurant's services.
 - **Restaurant API**: The backend **RESTful APIs** that handle various operations related to menu item management, delivery orders, table bookings, and staff (owner, managers, delivery crew) administration.
 
-## Technology Stack
+## Technology Stack 🛠️
 
 - **Django**: Web framework to build the application core, along with **HTML**, **CSS**, and **JavaScript** for front-end development.
 - **Django REST Framework (DRF)**: For creating, authenticating, and securing various RESTful APIs.
@@ -21,16 +21,16 @@ The project consists of two Django apps:
 
 Below is a brief overview of the API endpoints available in the project:
 
-- **Restaurant Menu API**: Manage menu items (view, add, update, delete).
-- **Shopping Cart API**: Handle cart operations (add items, view contents, empty cart).
-- **Delivery Order API**: Manage orders (view, place, assign delivery crew, update status, delete).
-- **Table Booking API**: View table bookings.
-- **Delivery Crew Management API**: Hire or fire delivery crew members.
-- **Manager Management API**: Hire or fire managers.
+- **Restaurant Menu API** 🍝: Manage menu items (view, add, update, delete).
+- **Menu Cart API** 🛒: Handle cart operations (add items, view contents, empty cart).
+- **Delivery Order API** 🚚: Manage orders (view, place, assign delivery crew, update status, delete).
+- **Table Booking API** 🍽️: View table bookings.
+- **Delivery Crew Management API** 👨‍💼: Hire or fire delivery crew members.
+- **Manager Management API** 👔: Hire or fire managers.
 
 For detailed information about the API endpoints, refer to the [API EndPoints Documentation](documentation/API.md).
 
-## Setup and Installation
+## Setup and Installation ⚙️
 
 1. **Clone the Repository**  
    Clone the repository to your local machine and navigate into the project directory:
